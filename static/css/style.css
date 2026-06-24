@@ -109,6 +109,7 @@ main {
 .home-content .support {
   font-size: 0.95rem;
   color: var(--text-secondary);
+  margin-top: 2rem;
 }
 
 .home-content .support a {
