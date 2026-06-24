@@ -1,0 +1,29 @@
+baseURL = "https://jietnasiella.org/"
+title = "Jietnašiella"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    label = "English"
+    weight = 1
+  [languages.fi]
+    label = "Suomi"
+    weight = 2
+  [languages.nb]
+    label = "Norsk"
+    weight = 3
+  [languages.se]
+    label = "Davvisámegiella"
+    weight = 4
+  [languages.sma]
+    label = "Åarjelsaemien gïele"
+    weight = 5
+  [languages.smj]
+    label = "Julevsámegiella"
+    weight = 6
+  [languages.sv]
+    label = "Svenska"
+    weight = 7
+
+[taxonomies]

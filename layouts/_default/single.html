@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="prose">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ if .Translations }}
+  <div class="translation-notice">
+    {{ range .Translations }}
+      <a href="{{ .RelPermalink }}">{{ .Language.Label }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

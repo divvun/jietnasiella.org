@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="home">
+  <div class="home-content">
+    <h1>{{ .Title }}</h1>
+    <p class="tagline">{{ .Content }}</p>
+    <p class="support">
+      {{ i18n "support_intro" }}
+      <a href="mailto:feedback@divvun.no">feedback@divvun.no</a>
+    </p>
+  </div>
+</div>
+{{ end }}
