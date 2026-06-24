@@ -17,7 +17,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Install Hugo
         env:
@@ -27,12 +27,12 @@ jobs:
           tar -xzf hugo.tar.gz hugo
           sudo mv hugo /usr/local/bin/hugo
 
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
         id: pages
 
       - run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}"
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: ./public
 
@@ -43,5 +43,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v5
         id: deployment
