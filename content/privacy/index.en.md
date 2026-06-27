@@ -3,7 +3,7 @@ title: Privacy Policy
 ---
 
 **Donate Your Speech**
-Last updated: 2026-03-13
+Last updated: 2026-06-27
 
 ## Data Controller
 
@@ -45,7 +45,7 @@ We do not sell your data. Voice recordings and associated metadata may be shared
 
 ## Data Retention and Deletion
 
-You may delete all data associated with your client identifier directly from within the app. This removes your recordings from both the local device and the server. If you need further assistance with data deletion, contact us at the address above.
+To request deletion of your data, copy your client identifier from the app (Details → Privacy → Copy Client ID) and send it to <feedback@divvun.no>. We will delete all recordings associated with that identifier from our servers. You can also delete recordings stored locally on your device by uninstalling the app.
 
 ## Children's Privacy
 
