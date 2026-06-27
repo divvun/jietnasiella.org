@@ -2,15 +2,17 @@
 title: Privacy Policy
 ---
 
-**Donate Your Speech** Last updated: 2026-06-27
+**Jietnašiella** Last updated: 2026-06-27
 
 ## Data Controller
 
-UiT The Arctic University of Norway (UiT) Divvun Contact: <feedback@divvun.no>
+UiT The Arctic University of Norway (UiT) / Divvun
+
+Contact: <feedback@divvun.no> >>>>>>> dbd700f (Corrections)
 
 ## What Data We Collect
 
-When you use Jiernašiella, we collect the following:
+When you use Jietnašiella, we collect the following:
 
 - **Voice recordings**: Audio recordings you voluntarily submit through the app.
 - **Recording metadata**: Duration, sample rate, bit depth, number of audio
