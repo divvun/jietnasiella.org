@@ -2,13 +2,14 @@
 title: Privacy Policy
 ---
 
-**Jietnašiella** Last updated: 2026-06-27
+**Donate Your Speech**
+Last updated: 2026-06-28
 
 ## Data Controller
 
 UiT The Arctic University of Norway (UiT) / Divvun
 
-Contact: <feedback@divvun.no> >>>>>>> dbd700f (Corrections)
+Contact: <feedback@divvun.no>
 
 ## What Data We Collect
 
@@ -44,9 +45,7 @@ time through your device settings.
 
 ## Where Your Data Is Stored
 
-Recordings and metadata are stored locally on your device until uploaded.
-Uploaded data is transmitted over HTTPS and stored in Microsoft Azure Blob
-Storage in the North Europe region (hosted in the EU/EEA).
+Recordings and metadata are stored locally on your device until uploaded. Uploaded data is transmitted over HTTPS and stored in Microsoft Azure Blob Storage in the North Europe region (hosted in the EU/EEA). Access to the stored data is restricted to UiT staff with explicit permission.
 
 ## Data Sharing
 
