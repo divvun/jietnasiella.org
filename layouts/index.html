@@ -9,6 +9,13 @@
       {{ i18n "support_intro" }}
       <a href="mailto:feedback@divvun.no">feedback@divvun.no</a>
     </p>
+    <div class="store-badges">
+      {{/* TODO: replace span with <a href="APP_STORE_URL" target="_blank" rel="noopener"> when live */}}
+      <span><img src="{{ "images/badge-appstore.svg" | relURL }}" alt="Download on the App Store"></span>
+      <a href="https://play.google.com/store/apps/details?id=no.uit.divvun.donate_your_speech" target="_blank" rel="noopener">
+        <img src="{{ "images/badge-googleplay.svg" | relURL }}" alt="Get it on Google Play">
+      </a>
+    </div>
   </div>
 </div>
 {{ end }}

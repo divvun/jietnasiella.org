@@ -131,6 +131,25 @@ main {
   text-decoration: underline;
 }
 
+.store-badges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+}
+
+.store-badges img {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+
+.store-badges a:hover img {
+  opacity: 0.8;
+  transition: opacity 0.15s;
+}
+
 /* Prose (privacy policy) */
 
 .prose {
