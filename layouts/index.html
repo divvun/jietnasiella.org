@@ -1,6 +1,8 @@
 {{ define "main" }}
 <div class="home">
   <div class="home-content">
+    {{ $icon := (resources.Get "images/icon.png").Resize "192x192 webp" }}
+    <img src="{{ $icon.RelPermalink }}" width="96" height="96" alt="Jietnašiella" class="app-icon">
     <h1>{{ .Title }}</h1>
     <p class="tagline">{{ .Content }}</p>
     <p class="support">
