@@ -2,7 +2,7 @@
 title: Privacy Policy
 ---
 
-**Donate Your Speech**
+**Jietnašiella**
 Last updated: 2026-06-28
 
 ## Data Controller
